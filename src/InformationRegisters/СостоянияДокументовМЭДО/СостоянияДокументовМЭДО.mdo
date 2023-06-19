@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a767e80e-09a0-4363-a0e6-d1cd15cbb159">
+  <producedTypes>
+    <selectionType typeId="ffc3baa2-8a02-4271-8269-3fccd8b6a340" valueTypeId="5d4e99f9-2c70-4550-a901-f73a2d44faa2"/>
+    <listType typeId="213d2730-c644-416f-a29d-688938709bb4" valueTypeId="2979b27f-ae55-48cd-a560-7a9cbf059416"/>
+    <managerType typeId="19b55c76-8093-49e1-9297-7db080dda083" valueTypeId="7a93c2f4-a5b0-4d35-be13-8a301cefab70"/>
+    <recordSetType typeId="73b78884-d3d6-4216-8e1c-133d82039b70" valueTypeId="6d5d7ce5-2a1d-4112-958d-dbfb2132fcfa"/>
+    <recordKeyType typeId="93e1d511-697f-4f8d-b70d-c034aefb6dfb" valueTypeId="a72dda27-2d36-4645-b627-293bb3d4336a"/>
+    <recordType typeId="77981b98-26b8-4206-bf8f-ca1708d176a1" valueTypeId="fedd9575-65d9-47bf-9bcb-4bc11c5b01e6"/>
+    <recordManagerType typeId="7b4f2d64-83a0-43ca-9478-620e175dbf53" valueTypeId="f07c3077-bd87-481c-aaf6-dd23600ad044"/>
+  </producedTypes>
+  <name>СостоянияДокументовМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния документов МЭДО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СостоянияДокументовМЭДО.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Состояние документа МЭДО</value>
+  </recordPresentation>
+  <resources uuid="0abbfd41-df88-44a1-ae51-2795d4c1b267">
+    <name>ИдентификаторДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор документа</value>
+    </synonym>
+    <comment>Для входящего - из паспорта сообщения МЭДО, для исходящего - наш GUID из ссылки на документ</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="865b746c-75e7-4dbd-881a-c1eec2d941d3">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <comment>Для входящего из электронного сообщения. Для исходящего - генерируется системой</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="a22ed866-4d2c-4b48-9cf0-507caea3ef93">
+    <name>ПредметСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет сообщения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметСообщенияМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9d59395c-1a05-450e-b152-ba807bb94e58">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияДокументовМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b0309e7a-a8b5-44e7-841e-5502b7976ec4">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаправленияСообщенийМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяется по документу - входящий, исходящий (а не по уведомлению/квитанции, которое идет в обратную сторону).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="91b59e37-d644-40b0-81d6-a0d78dfe775b">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8734aed6-590b-44df-a584-65ec03e1df86">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d050521f-30ac-492a-99bb-85d2533e0afb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

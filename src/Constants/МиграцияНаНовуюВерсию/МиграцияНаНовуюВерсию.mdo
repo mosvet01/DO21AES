@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28e976c8-1312-4609-830e-edabca3bd438">
+  <producedTypes>
+    <managerType typeId="ddd8c7cc-9983-4914-b4b8-1551b66a4fb1" valueTypeId="22803acb-566a-4f9a-9331-e55651bb2f9e"/>
+    <valueManagerType typeId="c7cb764f-9805-4720-b209-c45114f824ad" valueTypeId="300a248e-54c7-4bf2-8828-79c8aeae096c"/>
+    <valueKeyType typeId="b5a29b4d-dbfe-4baa-949d-540d4f6708cd" valueTypeId="0a6c87a6-48d7-4553-bd26-0663bf509596"/>
+  </producedTypes>
+  <name>МиграцияНаНовуюВерсию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция данных в новую версию</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

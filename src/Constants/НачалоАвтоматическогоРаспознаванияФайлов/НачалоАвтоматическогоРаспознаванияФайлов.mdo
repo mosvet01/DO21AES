@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="438a5ebf-4fe9-4b72-8369-712d69635803">
+  <producedTypes>
+    <managerType typeId="6da5b60d-df08-4f04-8764-3d124b31365f" valueTypeId="f0a18fa1-8c07-426c-9496-5267901fd663"/>
+    <valueManagerType typeId="6165b2c2-da90-4668-8732-f2f108bd1e04" valueTypeId="a75fc328-2ef4-4c76-accd-59a0d0a9ff95"/>
+    <valueKeyType typeId="a76cf21c-673c-49d8-ae81-8d0edcd0348f" valueTypeId="4d86de89-7469-4697-b825-cfc59cd634f7"/>
+  </producedTypes>
+  <name>НачалоАвтоматическогоРаспознаванияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начало автоматического распознавания файлов</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

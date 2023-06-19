@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db26b069-f107-46f3-b5d0-5236cf7e5216">
+  <name>ШаблонРегистрационногоШтампаМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон регистрационного штампа МЭДО</value>
+  </synonym>
+  <comment>Пустая картинка для наложения рег.номера и даты</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

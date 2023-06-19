@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b76d790f-2870-4639-80b6-a115088e2191">
+  <name>МиграцияДанныхИзВнешнихСистемВыгрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция данных из внешних систем выгрузка</value>
+  </synonym>
+  <methodName>CommonModule.МиграцияДанныхИзВнешнихСистемСервер.РегламентнаяВыгрузка</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

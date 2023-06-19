@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb783ff2-ff7d-41da-a5ab-52a04c906539">
+  <producedTypes>
+    <objectType typeId="9e6e117a-2d08-4464-b1cf-f9cf31343f96" valueTypeId="e9767026-c129-4173-a501-65d134e7f69f"/>
+    <managerType typeId="cf241578-3a35-47b4-b951-e6eacb9d9635" valueTypeId="4b37745b-11e5-4544-a126-52f3a1bb7d31"/>
+  </producedTypes>
+  <name>ИнтерфейсДокументовЭДОДокументооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс документов ЭДО</value>
+  </synonym>
+  <defaultForm>DataProcessor.ИнтерфейсДокументовЭДОДокументооборот.Form.ПросмотрОшибокЭДО</defaultForm>
+  <forms uuid="9153c030-5168-484c-9460-af03027f5ce9">
+    <name>ВыборИсходящегоПакетаЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор исходящего пакета ЭДО</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3b31be73-e72f-4105-9225-474719780d87">
+    <name>ИзменениеСоставаПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение состава пакета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e9339f3-10ee-4d20-b313-79b58610c931">
+    <name>ОтправкаДокументовПоЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка документов по ЭДО</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="37902e71-1c46-4331-b37c-e7a62af423d8">
+    <name>ПросмотрОшибокЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр ошибок ЭДО</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="77060496-a6ff-4482-abcb-15e669cfd0e2">
+    <name>ПросмотрФайлаПакетаЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр файла пакета ЭДО</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ac12df64-1fee-46f7-80fe-a2ad4191b848">
+    <name>ДокументыКОтправкеПоЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы к отправке по ЭДО</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

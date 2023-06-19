@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16ffd9c4-0c3e-4534-8ec5-b1cdf0d5c525">
+  <producedTypes>
+    <managerType typeId="20cbf604-92ef-4980-966d-5c1c4b16264d" valueTypeId="8e72cde2-d689-4b98-8790-71102f2c9566"/>
+    <valueManagerType typeId="c36054b6-3f86-4b91-9d5c-2d29efc46c76" valueTypeId="998eeb7c-32ad-4ff0-8aa6-beced236fefa"/>
+    <valueKeyType typeId="947489b3-1bba-4f69-b686-6ae7bb22431f" valueTypeId="f767b544-50a3-4cbc-81a8-7de4436edba0"/>
+  </producedTypes>
+  <name>СпособВставкиШтампаЭПВPDF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ вставки штампа ЭПВPDF</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СпособыВставкиШтампаЭПВPDF</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

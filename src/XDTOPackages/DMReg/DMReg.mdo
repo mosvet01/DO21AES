@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b47b3cc-5637-46a3-a3f6-617ed2203766">
+  <name>DMReg</name>
+  <synonym>
+    <key>ru</key>
+    <value>DMReg</value>
+  </synonym>
+  <namespace>http://www.1c.ru/DMReg</namespace>
+</mdclass:XDTOPackage>

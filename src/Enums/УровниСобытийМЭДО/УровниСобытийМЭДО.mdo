@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bcccf78-29bc-45df-bd77-1419829e1427">
+  <producedTypes>
+    <refType typeId="cffb8914-7a0c-4e51-bfc4-4e570ca82b14" valueTypeId="a1e0db23-5842-4ded-a710-c9d3063b5384"/>
+    <listType typeId="9459e114-2c85-422c-bad7-96ea9648bde7" valueTypeId="253e6a26-3337-496b-9aa8-0fbfa9e644e8"/>
+    <managerType typeId="f7428c50-d540-461f-983e-72221bf00167" valueTypeId="0c05ee95-bede-46ca-9798-14caa88a37e9"/>
+  </producedTypes>
+  <name>УровниСобытийМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни событий МЭДО</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="738bf52c-ff0b-4d83-abf7-d4e5279efc8d">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5eadedc3-506d-4d02-b675-249bfc850855">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3cf3689d-6aa9-49ee-a94a-9fa123c07592">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

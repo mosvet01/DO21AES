@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbf032cf-3e93-42bf-83b3-781bf11b60a0">
+  <name>ИспользоватьМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать МЭДО</value>
+  </synonym>
+  <location>Constant.ИспользоватьМЭДО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.НастройкаИАдминистрирование.Subsystem.АдминистрированиеМЭДО</content>
+  <content>Subsystem.СтандартныеПодсистемыДокументооборота.Subsystem.МЭДО</content>
+  <content>DataProcessor.ТекущиеДелаМЭДО</content>
+  <content>InformationRegister.НастройкиОрганизацийМЭДО</content>
+  <content>InformationRegister.СостоянияДокументовМЭДО</content>
+  <content>InformationRegister.НастройкиКонтрагентовМЭДО</content>
+  <content>InformationRegister.ЖурналСобытийМЭДО</content>
+  <content>Catalog.ВидыДокументовМЭДО</content>
+  <content>Enum.ВерсииФорматаМЭДО</content>
+  <content>Enum.СпособыОбменаМЭДО</content>
+  <content>Enum.НаправленияСообщенийМЭДО</content>
+  <content>Catalog.ПричиныОтказаВРегистрацииМЭДО</content>
+  <content>Document.КвитанцияМЭДО</content>
+  <content>Document.УведомлениеМЭДО</content>
+  <content>Enum.УровниСобытийМЭДО</content>
+  <content>Catalog.МестаСоставленияДокументовМЭДО</content>
+  <content>Catalog.Контрагенты.Command.НастройкиДляМЭДО</content>
+  <content>Catalog.Организации.Command.НастройкиДляМЭДО</content>
+  <content>Document.ДанныеДокументаМЭДО</content>
+  <content>InformationRegister.АктуальныеСостоянияДокументовМЭДО</content>
+  <content>Enum.ТипыУведомленийМЭДО</content>
+  <content>Enum.СостоянияДокументовМЭДО</content>
+</mdclass:FunctionalOption>

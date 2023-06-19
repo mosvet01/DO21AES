@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92430710-15b5-48ee-bf46-67b7aedf13f1">
+  <producedTypes>
+    <containerType typeId="61df96fc-1214-49e3-abcc-3beb327bd6f2" valueTypeId="aa794092-79e9-45b3-95ff-1bdb253d0596"/>
+  </producedTypes>
+  <name>ПрисоединенныйФайлМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенный файл МЭДО</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Файлы</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1a505d1-cfae-42cc-8a17-ecb6760f0e34">
+  <producedTypes>
+    <managerType typeId="702b584a-aa28-410e-9fd6-5f72121a709c" valueTypeId="02fc0cf9-4abb-4b5b-b606-a8a592399be7"/>
+    <valueManagerType typeId="87cf8a81-0d67-4097-b7ad-3a85ced89d70" valueTypeId="c1f23db0-a4ae-418d-963b-d3c74bab1e31"/>
+    <valueKeyType typeId="680a2c69-7f98-46ed-8bdb-1b5476bdaa7a" valueTypeId="662c33a1-b77f-4fea-8689-d385b9df03a2"/>
+  </producedTypes>
+  <name>ПереходКаталог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход. Каталог</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:32426ef4-68a6-43ba-bda4-93d11ef66984</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:590086c5-52d7-42d4-9a34-e621d38aea86</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ВидыДокументовМЭДО.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЖурналСобытийМЭДО.StandardCommand.OpenList</commands>
+      <commands>Catalog.МестаСоставленияДокументовМЭДО.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПричиныОтказаВРегистрацииМЭДО.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

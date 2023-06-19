@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3eeccff8-23b8-4b23-862f-43e31f622331">
+  <producedTypes>
+    <managerType typeId="b2ff9c90-233e-4019-85fb-860a0d97fa91" valueTypeId="4973dede-bdcc-415a-85ee-3e9fbbe52ed0"/>
+    <valueManagerType typeId="ba6659b4-1bd2-438d-aa1d-a5d8d9df6815" valueTypeId="8ab4c9f1-a4ff-4ce6-928c-585558d1d3df"/>
+    <valueKeyType typeId="1de8b10c-ac52-4b2c-9ca5-81b3e1594438" valueTypeId="1307bd0c-26d9-4f5f-a0eb-5afa555da8f3"/>
+  </producedTypes>
+  <name>ИспользоватьМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать МЭДО</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

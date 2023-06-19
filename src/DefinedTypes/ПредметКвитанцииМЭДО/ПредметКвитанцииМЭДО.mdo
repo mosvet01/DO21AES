@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46db91e6-8088-4444-844e-2552d5afd956">
+  <producedTypes>
+    <containerType typeId="41ad0d8b-fb39-4e76-82f2-bef5e3ef7c59" valueTypeId="e54df10f-3adc-4493-be9f-55efb77239d0"/>
+  </producedTypes>
+  <name>ПредметКвитанцииМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет квитанции МЭДО</value>
+  </synonym>
+  <comment>Квитанция о доставке: Документа, Уведомления</comment>
+  <type>
+    <types>DocumentRef.УведомлениеМЭДО</types>
+    <types>CatalogRef.ВходящиеДокументы</types>
+    <types>CatalogRef.ИсходящиеДокументы</types>
+  </type>
+</mdclass:DefinedType>

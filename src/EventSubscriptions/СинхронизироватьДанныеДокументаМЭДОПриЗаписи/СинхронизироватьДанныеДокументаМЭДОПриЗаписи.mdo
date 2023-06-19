@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84d5d7cc-ff76-46aa-a23e-785ff2b3acdf">
+  <name>СинхронизироватьДанныеДокументаМЭДОПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизировать Данные документа МЭДО с документом, при записи</value>
+  </synonym>
+  <comment>синхронизация пометки удаления</comment>
+  <source>
+    <types>DefinedType.ПредметМЭДООбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.МЭДО.СинхронизироватьДанныеДокументаМЭДОПриЗаписи</handler>
+</mdclass:EventSubscription>

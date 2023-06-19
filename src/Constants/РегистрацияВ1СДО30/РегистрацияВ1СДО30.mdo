@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dac63788-7a49-455a-915a-54a209e08454">
+  <producedTypes>
+    <managerType typeId="262af48d-36c0-49f1-b037-f32016264791" valueTypeId="040665d0-255d-41e4-9826-0ca148fb45cb"/>
+    <valueManagerType typeId="06670b93-0698-4ccc-b105-8dd7f0b34f13" valueTypeId="fef941ed-679d-4a52-9faf-113ccbd8f3c5"/>
+    <valueKeyType typeId="e1d39941-3ccc-4be3-b332-392a286b6543" valueTypeId="1c196ce9-ca07-44ce-8b2e-227cec98f68f"/>
+  </producedTypes>
+  <name>РегистрацияВ1СДО30</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация документов в 1С:ДО 3.0</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

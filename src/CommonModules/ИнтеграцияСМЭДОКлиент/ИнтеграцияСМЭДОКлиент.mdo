@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cce321ff-461a-41ba-b601-5bd36385def7">
+  <name>ИнтеграцияСМЭДОКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с МЭДО - клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

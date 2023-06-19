@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="614d0253-6aa3-4b53-8412-6bd39c53b923">
+  <producedTypes>
+    <containerType typeId="6faa7d37-b27b-49e5-b70a-575a625b4da5" valueTypeId="7f5723ea-09d6-42b7-a3d4-beb00ec6671c"/>
+  </producedTypes>
+  <name>ГрифДоступаМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гриф доступа МЭДО</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ГрифыДоступа</types>
+  </type>
+</mdclass:DefinedType>

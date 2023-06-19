@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09d9f03a-da0d-4857-9176-431ad385e279">
+  <name>МиграцияДанныхИзВнешнихСистемКлиентПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция данных из внешних систем клиент повт исп</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

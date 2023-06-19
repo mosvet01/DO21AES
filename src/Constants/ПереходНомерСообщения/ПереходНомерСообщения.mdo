@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dd5196e-11a1-4b37-bfa4-06af14e11bb5">
+  <producedTypes>
+    <managerType typeId="e0455e08-27b6-46e4-827e-8a714d61b185" valueTypeId="2636fca2-3fc6-472a-8930-1f352df756c6"/>
+    <valueManagerType typeId="6d7ab5b9-0166-414b-9485-36082d0fc395" valueTypeId="fe3de3b6-9427-4747-b2f0-14405644337f"/>
+    <valueKeyType typeId="0d2f1458-7bb5-4348-8bd4-f2fbeededf4a" valueTypeId="214eb240-6297-47d8-8e9b-0559d92b3bbb"/>
+  </producedTypes>
+  <name>ПереходНомерСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход. Номер сообщения</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

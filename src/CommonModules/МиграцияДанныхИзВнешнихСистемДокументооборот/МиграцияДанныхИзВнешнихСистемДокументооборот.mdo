@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e121b952-48af-4d7f-9f83-a5e6a2eeb006">
+  <name>МиграцияДанныхИзВнешнихСистемДокументооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция данных из внешних систем документооборот</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

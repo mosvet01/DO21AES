@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40e99dd5-91a4-4805-9410-389bdde38628">
+  <producedTypes>
+    <objectType typeId="c67c65c6-b65e-41fd-887c-28099f47d43b" valueTypeId="e47fd997-54c3-441d-b5e6-850a01449769"/>
+    <managerType typeId="6ab4d9b6-3d2a-46a3-84f7-9f0387c27e9a" valueTypeId="d25a5232-0e5b-4485-bbbb-16807a58268f"/>
+  </producedTypes>
+  <name>МиграцияДанныхИзВнешнихСистемМонитор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция на новую версию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МиграцияДанныхИзВнешнихСистемМонитор.Form.Форма</defaultForm>
+  <forms uuid="5ca14b2d-2040-44e9-94ec-27383d0daa82">
+    <name>ВыборОбъектовОтбором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор объектов отбором</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3b095a94-5a17-41b7-91ca-41139db3e308">
+    <name>ФильтрВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a6bc709a-d07d-4238-8c54-4074f6011189">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

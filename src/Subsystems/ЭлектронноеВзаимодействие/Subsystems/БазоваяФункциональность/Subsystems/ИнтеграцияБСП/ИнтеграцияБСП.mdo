@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c57a1e9-0be4-49bf-945a-047a503d0b15">
+  <name>ИнтеграцияБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция БСП</value>
+  </synonym>
+  <content>CommonModule.ИнтеграцияБСПБЭДВызовСервера</content>
+  <content>CommonModule.ИнтеграцияБСПБЭД</content>
+  <content>CommonModule.ИнтеграцияБСПБЭДКлиент</content>
+  <content>CommonModule.ИнтеграцияБСПБЭДСлужебныйВызовСервера</content>
+  <content>CommonModule.ИнтеграцияБСПБЭДСлужебныйКлиентСервер</content>
+  <content>CommonModule.ИнтеграцияБСПБЭДСлужебныйКлиент</content>
+  <content>CommonModule.ИнтеграцияБСПБЭДПовтИсп</content>
+  <parentSubsystem>Subsystem.ЭлектронноеВзаимодействие.Subsystem.БазоваяФункциональность</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b225894-3ff4-4a8e-baae-05b9e8b3923b">
+  <name>ПросмотрМонитораМиграцииИзВнешнихСистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр монитора миграции из внешних систем</value>
+  </synonym>
+</mdclass:Role>

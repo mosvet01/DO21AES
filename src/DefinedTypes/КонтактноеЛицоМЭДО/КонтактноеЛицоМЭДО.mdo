@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee7897b5-4330-45ce-8048-1b7c5d2fa2ea">
+  <producedTypes>
+    <containerType typeId="eba5b341-cc69-4fcc-ba88-2858f985ac3b" valueTypeId="551c2f47-e04a-465a-87db-c6f8ed7c5ba4"/>
+  </producedTypes>
+  <name>КонтактноеЛицоМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактное лицо для МЭДО</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.КонтактныеЛица</types>
+  </type>
+</mdclass:DefinedType>

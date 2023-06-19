@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46983778-cb91-48aa-b9e9-c416a962b05f">
+  <name>СозданиеОбъектовЭДОПоДокументамДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование исходящих документов ЭДО по документам 1С:Документооборот</value>
+  </synonym>
+  <methodName>CommonModule.ОбменСКонтрагентамиДОСервер.СформироватьОбъектыЭДОПоДокументамДО</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

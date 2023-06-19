@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8d9f0e4-3329-4a53-b2e6-6375e4b6a74e">
+  <producedTypes>
+    <containerType typeId="0203f4f3-9115-4b11-9c52-3c3cb5818eb9" valueTypeId="53b51251-00d7-4005-a946-fe0a7d4e679b"/>
+  </producedTypes>
+  <name>КонтрагентМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагент для МЭДО</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+</mdclass:DefinedType>

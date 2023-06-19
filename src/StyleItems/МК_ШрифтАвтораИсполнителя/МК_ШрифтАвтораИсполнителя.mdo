@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20ef7cbe-9f1d-49e1-a80b-9b07c6f63698">
+  <name>МК_ШрифтАвтораИсполнителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК шрифт автора исполнителя</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontRef">
+      <font>Style.SmallTextFont</font>
+    </value>
+  </value>
+</mdclass:StyleItem>

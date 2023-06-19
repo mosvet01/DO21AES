@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed57aab7-e684-466b-a5d9-b3cfc28392de">
+  <producedTypes>
+    <containerType typeId="ab1f2e64-692f-45b2-bf68-e62528c02a2e" valueTypeId="b6ace22e-7087-48ef-8db4-ec8384b53dc8"/>
+  </producedTypes>
+  <name>ОтветственныйМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственный МЭДО</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

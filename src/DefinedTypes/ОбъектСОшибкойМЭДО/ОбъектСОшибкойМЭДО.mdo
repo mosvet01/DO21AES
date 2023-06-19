@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85386725-56ce-4b4b-9313-62a698b08b44">
+  <producedTypes>
+    <containerType typeId="73aa1ecc-a1f3-441e-8d12-2306aa8f9d52" valueTypeId="f310a4d0-f0f9-413e-98a8-502636724162"/>
+  </producedTypes>
+  <name>ОбъектСОшибкойМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект с ошибкой МЭДО</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.ДанныеДокументаМЭДО</types>
+    <types>DocumentRef.УведомлениеМЭДО</types>
+    <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.ВходящиеДокументы</types>
+    <types>String</types>
+    <types>DocumentRef.КвитанцияМЭДО</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.ИсходящиеДокументы</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

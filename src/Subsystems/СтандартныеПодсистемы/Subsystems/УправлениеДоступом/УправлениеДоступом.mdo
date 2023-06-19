@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1514eaff-faea-4d82-9465-d0d5292bb31d">
+  <name>УправлениеДоступом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление доступом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаУправленияДоступом</picture>
+  </picture>
+  <content>Role.ИзменениеУчастниковГруппДоступа</content>
+  <content>Constant.ОграничиватьДоступНаУровнеЗаписей</content>
+  <content>CommonModule.УправлениеДоступом</content>
+  <content>CommonModule.УправлениеДоступомПереопределяемый</content>
+  <content>ChartOfCharacteristicTypes.ВидыДоступа</content>
+  <content>CommonModule.УправлениеДоступомСлужебныйВызовСервера</content>
+  <content>Catalog.ПрофилиГруппДоступа</content>
+  <content>Catalog.ГруппыДоступа</content>
+  <content>CommonModule.УправлениеДоступомСлужебный</content>
+  <content>CommonModule.УправлениеДоступомСлужебныйПовтИсп</content>
+  <content>InformationRegister.ПраваРолей</content>
+  <content>StyleItem.ЗапрещенноеПравоДоступаЦвет</content>
+  <content>CommonForm.НастройкиПравОбъектов</content>
+  <content>FunctionalOption.ОграничиватьДоступНаУровнеЗаписей</content>
+  <content>CommonModule.УправлениеДоступомСлужебныйКлиент</content>
+  <content>InformationRegister.НаследованиеНастроекПравОбъектов</content>
+  <content>CommonModule.УправлениеДоступомСлужебныйКлиентСервер</content>
+  <content>StyleItem.РазрешенноеПравоДоступаЦвет</content>
+  <content>CommonPicture.НаследованиеВключено</content>
+  <content>CommonPicture.УровеньДоступаАдминистрированиеИсточника</content>
+  <content>CommonPicture.УровеньДоступаИспользование</content>
+  <content>CommonPicture.НаследованиеОтключено</content>
+  <content>CommonPicture.НаследованиеВключеноСПапкой</content>
+  <content>CommonPicture.НаследованиеОтключеноСПапкой</content>
+  <content>bd362ff9-3dec-4a4b-9595-8609de76e842</content>
+  <content>CommonPicture.УровеньДоступаЕстьПраво</content>
+  <content>CommonPicture.УровеньДоступаИспользованиеИАдминистрированиеИсточника</content>
+  <content>CommonPicture.УровеньДоступаИспользованиеИсточника</content>
+  <content>CommonPicture.УровеньДоступаПолучение</content>
+  <content>CommonPicture.УровеньДоступаПолучениеИУстановка</content>
+  <content>CommonPicture.УровеньДоступаУстановка</content>
+  <content>StyleItem.НеназначенноеПравоДоступаЦвет</content>
+  <content>ea36c426-2b43-4232-9978-0104bafd345d</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

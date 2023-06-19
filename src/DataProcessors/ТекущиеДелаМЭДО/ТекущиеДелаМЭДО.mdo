@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28997674-6997-4ea5-8d3a-7f411168ba91">
+  <producedTypes>
+    <objectType typeId="6e74af8a-cf6b-407e-bd41-a94b324ef127" valueTypeId="cf8f8b5e-a30f-4b37-a0e0-a76667162662"/>
+    <managerType typeId="69c6f63b-e4db-42ca-8b5e-e7f7d3e43b1e" valueTypeId="bc957c03-6a6a-462c-9833-78a65038a704"/>
+  </producedTypes>
+  <name>ТекущиеДелаМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие дела МЭДО</value>
+  </synonym>
+  <defaultForm>DataProcessor.ТекущиеДелаМЭДО.Form.Форма</defaultForm>
+  <attributes uuid="0e1608c9-0886-4c70-825e-a12abaedb405">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="210df884-6136-463d-ad26-8e73508a55b9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a8c4366e-141f-4aeb-a78d-ed58ecf1382f">
+    <name>ОткрытьТекущиеДелаМЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущие дела МЭДО</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

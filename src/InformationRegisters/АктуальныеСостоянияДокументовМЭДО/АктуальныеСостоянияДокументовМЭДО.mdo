@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21a0665e-1a1c-4bde-975d-ae5ba5c7adea">
+  <producedTypes>
+    <selectionType typeId="a3ca6267-1142-43c6-aa14-d8a7c057e853" valueTypeId="c8ac76fb-4dcb-4e2c-9e4e-4a8e20668746"/>
+    <listType typeId="df1ab9c0-338a-4d9a-828a-59662aec6fe5" valueTypeId="d8cbe95b-4ba4-4884-ae9e-16bfac057bd9"/>
+    <managerType typeId="fa3fe458-3f4d-4c59-b986-2e79aff5b455" valueTypeId="76a111cc-1fb0-45f1-bd53-5ae43817330b"/>
+    <recordSetType typeId="414e46d6-4aec-4246-8bbc-121de77e4043" valueTypeId="e5dde7e1-9432-4cd1-886d-3a8e2a2ae93f"/>
+    <recordKeyType typeId="9f3e1435-e4ca-43b7-be5f-639fbfc8e3e1" valueTypeId="bf79b09d-61f2-49de-9d57-59d68d02eade"/>
+    <recordType typeId="fec7b304-ebe1-423e-9b13-b5ec11d7e097" valueTypeId="a58537bc-7420-4729-9629-706fe7a5228c"/>
+    <recordManagerType typeId="d467a8fd-7fb6-4979-a136-da53d66a1ae4" valueTypeId="4502e2a9-42ed-4473-9e48-c149e527b8f4"/>
+  </producedTypes>
+  <name>АктуальныеСостоянияДокументовМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуальные состояния документов МЭДО</value>
+  </synonym>
+  <comment>Для отборов в форме списка</comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Актуальное состояние документа МЭДО</value>
+  </recordPresentation>
+  <resources uuid="840b9264-3c66-4e39-a277-a1835bca5620">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияДокументовМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9af80e6f-5600-4cca-804c-cbedc3bc61fe">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

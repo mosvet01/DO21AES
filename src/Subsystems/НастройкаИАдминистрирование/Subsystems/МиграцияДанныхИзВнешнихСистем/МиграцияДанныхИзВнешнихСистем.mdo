@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0872b42d-a862-41a5-ad9c-f02d6c558757">
+  <name>МиграцияДанныхИзВнешнихСистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход на 3.0</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.МиграцияДанныхИзВнешнихСистемОбъекты</content>
+  <content>CommonModule.МиграцияДанныхИзВнешнихСистемПереопределяемый</content>
+  <content>CommonModule.МиграцияДанныхИзВнешнихСистемСервер</content>
+  <content>Constant.ПереходНомерСообщения</content>
+  <content>Constant.ПереходСтадия</content>
+  <content>DataProcessor.МиграцияДанныхИзВнешнихСистемМонитор</content>
+  <content>ScheduledJob.МиграцияДанныхИзВнешнихСистемВыгрузка</content>
+  <content>Constant.ПереходКаталог</content>
+  <content>Constant.ПереходГраницаИзменений</content>
+  <content>InformationRegister.МиграцияДанныхИзВнешнихСистемЖурнал</content>
+  <content>Role.ПросмотрМонитораМиграцииИзВнешнихСистем</content>
+  <content>ScheduledJob.ЗаполнениеПереходныхРабочихГрупп</content>
+  <content>CommonModule.МиграцияДанныхИзВнешнихСистемДокументооборот</content>
+  <content>Constant.МиграцияНаНовуюВерсию</content>
+  <content>Constant.РегистрацияВ1СДО30</content>
+  <content>Constant.ИмяПользователя1СДО30</content>
+  <content>Constant.АдресПубликации1СДО30</content>
+  <content>Constant.ВнешнийОбменВНовойВерсии</content>
+  <content>FunctionalOption.РегистрацияВ1СДО30</content>
+  <content>FunctionalOption.МиграцияНаНовуюВерсию</content>
+  <content>CommonModule.МиграцияДанныхИзВнешнихСистемВызовСервера</content>
+  <content>CommonModule.МиграцияДанныхИзВнешнихСистемКлиентПовтИсп</content>
+  <content>CommonModule.МиграцияДанныхИзВнешнихСистемСобытия</content>
+  <parentSubsystem>Subsystem.НастройкаИАдминистрирование</parentSubsystem>
+</mdclass:Subsystem>

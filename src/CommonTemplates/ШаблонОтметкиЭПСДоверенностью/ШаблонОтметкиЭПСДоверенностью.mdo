@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04471e21-3487-42c6-a4f4-ce83d04880f1">
+  <name>ШаблонОтметкиЭПСДоверенностью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон отметки ЭПСДоверенностью</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26080b91-6b2e-4e8a-95fc-996ee099d0a8">
+  <producedTypes>
+    <selectionType typeId="c915c70c-f09e-40a7-b095-1601168fdd20" valueTypeId="9164af98-33a9-4ce4-bbd6-a94073ea0839"/>
+    <listType typeId="ff858388-85e5-4372-8871-0b0f6eca2fb1" valueTypeId="3cf721ff-3772-4217-829c-b8408115122f"/>
+    <managerType typeId="b6a2549e-5c46-4d0f-a1d0-0ed1c3a6d7fc" valueTypeId="3027d163-570c-4645-b1f6-dc726afe51cc"/>
+    <recordSetType typeId="2143cde4-bf9b-40a4-b1f5-3ac408ba5849" valueTypeId="9685d462-8a03-45e9-b684-b2addad5e53d"/>
+    <recordKeyType typeId="25f4e8be-75e0-4aeb-8e3a-686748a90337" valueTypeId="c02022ec-88ef-4161-8c3d-3eb118d15a41"/>
+    <recordType typeId="b7bca345-c1fa-4979-9465-ab6133cc0506" valueTypeId="016595b2-2dd7-468e-9861-828126e2b72e"/>
+    <recordManagerType typeId="2e92187f-c017-4aff-9f1c-4e1a6bb7faa8" valueTypeId="0a7b4464-3faa-4cc1-8554-4737a2fd26c7"/>
+  </producedTypes>
+  <name>ПакетыЭДОДокументооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пакеты ЭДОДокументооборот</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d47a87bd-31d7-47ca-903b-e7ecc8ff06de">
+    <name>ИдентификаторПакетаБЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пакета БЭД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="883c8fce-c6f2-4171-b379-340d58f7eb41">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2590885c-d0e1-41c4-8fc0-4a1f1851797f">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаправленияЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="870d92ab-40ee-4a85-a548-167b17cbb771">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="541b39fc-54ab-4178-827a-5d9aef420266">
+    <name>ИдентификаторПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пакета</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa02848c-682d-4f73-a08b-fb695371485a">
+  <producedTypes>
+    <refType typeId="e87c3794-93e0-492a-a55e-9ac983152bf8" valueTypeId="a531d8d5-1631-4814-83bd-62c2f6b1b1f9"/>
+    <listType typeId="544217ec-670f-41ab-883a-fdb98991629d" valueTypeId="1e61178b-56f4-4872-8dda-1fd871822c01"/>
+    <managerType typeId="02c79b4e-094f-4cef-8ef5-3cb59986da47" valueTypeId="e3a5b938-76c0-4c37-a3ec-6266cce72d61"/>
+  </producedTypes>
+  <name>ВерсииФорматаМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии формата МЭДО</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1bbfe3d9-3b44-4b2f-8c80-a5faa767c056">
+    <name>Версия25</name>
+    <synonym>
+      <key>ru</key>
+      <value>2.5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21772708-7715-4238-8544-0949396bd64a">
+    <name>Версия27</name>
+    <synonym>
+      <key>ru</key>
+      <value>2.7</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="285fdfc2-7693-439b-8f79-6d71c6409a8e">
+    <name>Версия271</name>
+    <synonym>
+      <key>ru</key>
+      <value>2.7.1</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

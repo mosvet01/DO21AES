@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d944af8f-dfd2-4e47-a766-aa5caa948311">
+  <producedTypes>
+    <selectionType typeId="12111813-7305-4d05-835d-ca87e2714475" valueTypeId="1b19a3bd-b146-4b22-bac8-f9c539f5d8d4"/>
+    <listType typeId="8c0326f2-d897-48aa-b616-5143d4f8f5d0" valueTypeId="7eb0cbe6-83f2-4edc-9e2b-c75e625f62f3"/>
+    <managerType typeId="b7249b62-1be1-405e-a3c2-c38a1be5fb31" valueTypeId="1b25132f-b297-496c-a8fe-b74b42abb4f5"/>
+    <recordSetType typeId="62f1353a-a798-43a7-872a-2de944185dbf" valueTypeId="fbdb2e3f-52d1-4b20-a553-095e33baec14"/>
+    <recordKeyType typeId="a29dbbef-129a-4211-8ad2-1368da368e6f" valueTypeId="79bcffbd-1a02-418f-a76a-555537042791"/>
+    <recordType typeId="b557af36-6141-4978-a23a-757fbce1e28f" valueTypeId="6461eec8-e196-4091-a430-0689421b8a90"/>
+    <recordManagerType typeId="f51d9aab-7348-4530-85fe-f47f401cda43" valueTypeId="5380b995-00ac-409b-b0a3-8a1288fefc2d"/>
+  </producedTypes>
+  <name>СоставПакетовЭДОДокументооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав пакетов ЭДОДокументооборот</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7e2639cf-c0ff-4820-a324-868b00af84d2">
+    <name>ИдентификаторПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пакета</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="4a9588e6-ade5-447e-a74a-d1850532fa39">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнутренниеДокументы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

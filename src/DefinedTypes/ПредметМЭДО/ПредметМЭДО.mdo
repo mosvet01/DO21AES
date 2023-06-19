@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99e6799e-08fd-46d3-8cde-27ce8db7408b">
+  <producedTypes>
+    <containerType typeId="1df49bb0-a4dd-4e8d-b1a8-1f6ea782589b" valueTypeId="422509e0-5fd0-4006-b564-fea197d22f71"/>
+  </producedTypes>
+  <name>ПредметМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет МЭДО</value>
+  </synonym>
+  <comment>Типы, которые принимаются и отправляются по МЭДО</comment>
+  <type>
+    <types>CatalogRef.ВходящиеДокументы</types>
+    <types>CatalogRef.ИсходящиеДокументы</types>
+  </type>
+</mdclass:DefinedType>

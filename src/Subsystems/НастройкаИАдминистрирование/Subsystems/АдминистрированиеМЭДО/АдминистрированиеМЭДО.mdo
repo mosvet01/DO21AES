@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1eb8a1b-d6c2-45fc-8875-c5496450fb72">
+  <name>АдминистрированиеМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>МЭДО</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ЖурналСобытийМЭДО</content>
+  <content>Catalog.ВидыДокументовМЭДО</content>
+  <content>Catalog.МестаСоставленияДокументовМЭДО</content>
+  <content>Catalog.ПричиныОтказаВРегистрацииМЭДО</content>
+  <parentSubsystem>Subsystem.НастройкаИАдминистрирование</parentSubsystem>
+</mdclass:Subsystem>

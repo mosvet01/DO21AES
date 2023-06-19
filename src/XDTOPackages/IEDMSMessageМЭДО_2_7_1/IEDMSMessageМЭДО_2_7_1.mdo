@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="490bb926-46b3-464c-a49c-87d26af17f04">
+  <name>IEDMSMessageМЭДО_2_7_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>IEDMSMessage 2.7.1</value>
+  </synonym>
+  <namespace>urn:IEDMS:MESSAGE</namespace>
+</mdclass:XDTOPackage>

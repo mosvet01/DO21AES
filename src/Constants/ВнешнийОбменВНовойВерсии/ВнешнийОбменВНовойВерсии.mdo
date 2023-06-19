@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1eac4db8-f471-4be2-97a0-f35b47cbd4e3">
+  <producedTypes>
+    <managerType typeId="0f4ebb2c-7161-4d45-978a-9315a967b254" valueTypeId="c052837f-537e-48e8-a0b6-52fad9c1b670"/>
+    <valueManagerType typeId="aee8abe1-742d-405a-8d47-15ebb7edaf91" valueTypeId="0bba151e-8c87-47f6-aefa-9a0df278d494"/>
+    <valueKeyType typeId="997886f8-a707-46e4-9ae4-7d7bbaeab696" valueTypeId="6139a595-b2b1-493b-bc44-95b4390f85cb"/>
+  </producedTypes>
+  <name>ВнешнийОбменВНовойВерсии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными вести в новой версии</value>
+  </synonym>
+  <comment>Блокирует обмен с внешними ресурсами в текущей ИБ, в пользу обмена в новой версии программы</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="091267c6-897c-4de1-85b4-f466b5d96a42">
+  <producedTypes>
+    <managerType typeId="de5f9ad5-9d1e-4b9f-a22d-3905c5612761" valueTypeId="a3c9c35b-4fba-4709-a599-92d0936800a6"/>
+    <valueManagerType typeId="bf2a628d-935e-4a99-9598-e174a6164df3" valueTypeId="3b91064b-9077-4baa-b5f3-3b79216d0890"/>
+    <valueKeyType typeId="2d8f6877-3a5f-4dd6-a21c-7e06155c5c66" valueTypeId="cd1f44aa-14e0-4e17-a26e-133d620efb39"/>
+  </producedTypes>
+  <name>ПереходГраницаИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход. Граница изменений</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

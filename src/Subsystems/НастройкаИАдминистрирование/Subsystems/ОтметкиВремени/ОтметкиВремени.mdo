@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01f6fd4b-1534-4e1d-b754-abe8abfb4080">
+  <name>ОтметкиВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отметки времени</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОтметкиВремени</content>
+  <content>CommonModule.ОтметкиВремениСобытия</content>
+  <content>EventSubscription.ОтметкиВремениСсылочныеОбъектыПередУдалением</content>
+  <content>EventSubscription.ОтметкиВремениСсылочныеОбъектыПриЗаписи</content>
+  <content>CommonAttribute.ОтметкиВремениИдентификаторНабораЗаписей</content>
+  <content>EventSubscription.ОтметкиВремениИзмененияМаксимальногоРазмераФайла</content>
+  <content>EventSubscription.ОтметкиВремениИзмененияНастроекОбменаСМобильным</content>
+  <content>EventSubscription.ОтметкиВремениИзмененияПисем</content>
+  <content>EventSubscription.ОтметкиВремениИзмененияСведенийПисем</content>
+  <content>EventSubscription.ОтметкиВремениИзмененияСостоянийПриглашенияНаМероприятие</content>
+  <content>EventSubscription.ОтметкиВремениИзмененияТрудозатрат</content>
+  <content>EventSubscription.ОтметкиВремениИзмененияЦветаИФлага</content>
+  <content>Constant.ИспользоватьОтметкиВремени</content>
+  <content>FunctionalOption.ИспользоватьОтметкиВремени</content>
+  <content>DefinedType.ОтметкиВремениСсылочныеОбъекты</content>
+  <content>DefinedType.ОтметкаВремени</content>
+  <content>InformationRegister.ОтметкиВремениИзмененияСведенийПисем</content>
+  <content>InformationRegister.ОтметкиВремениСсылочныхОбъектов</content>
+  <content>InformationRegister.ОтметкиВремениОчередь3</content>
+  <content>InformationRegister.ОтметкиВремениОчередь2</content>
+  <content>InformationRegister.ОтметкиВремениОчередь1</content>
+  <content>InformationRegister.ОтметкиВремениРегистровНезависимых</content>
+  <content>ScheduledJob.ОтметкиВремениОбработка</content>
+  <content>65fe8d0d-0230-4ab1-a3cf-1bbb6149ec2e</content>
+  <content>EventSubscription.ОтметкиВремениКонстантыПриЗаписи</content>
+  <content>EventSubscription.ОтметкиВремениРегистрыПередЗаписью</content>
+  <content>DefinedType.ОтметкиВремениРегистры</content>
+  <content>DefinedType.ОтметкиВремениКонстанты</content>
+  <content>InformationRegister.ОтметкиВремениРегистровПодчиненных</content>
+  <parentSubsystem>Subsystem.НастройкаИАдминистрирование</parentSubsystem>
+</mdclass:Subsystem>

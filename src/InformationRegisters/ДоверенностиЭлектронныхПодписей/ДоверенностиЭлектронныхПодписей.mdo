@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a19a89c0-1a7a-49d5-a236-02a692586c84">
+  <producedTypes>
+    <selectionType typeId="18e480f3-72c5-435a-af63-a05725956eb7" valueTypeId="be377d5d-b78c-4031-9d59-566f9dfd08fa"/>
+    <listType typeId="0d72ec93-65f5-437b-9fe0-e52c1e541816" valueTypeId="8ec30bdc-9c23-42c1-a83f-3231aa603413"/>
+    <managerType typeId="4a349e65-004f-4e72-9c2d-f72015841845" valueTypeId="9075e4ab-7e08-44c6-82e6-da0eecf695b9"/>
+    <recordSetType typeId="b2a8bf8c-a1a6-417c-a370-c84163ddeac2" valueTypeId="b88a8c03-2b8a-47b4-901b-0ced8629f379"/>
+    <recordKeyType typeId="c25e355c-45dd-49e8-8f11-58bc0a927242" valueTypeId="725791ad-906d-4f32-97a3-f2bfcb1df89d"/>
+    <recordType typeId="f47028c7-4e60-48e7-bcbf-f35eab529dbe" valueTypeId="289e6a31-d8ed-4fe4-8cce-eb0ffa0f3be6"/>
+    <recordManagerType typeId="2f4af6b2-e5ce-455e-85cc-b217af57581c" valueTypeId="8b3467d1-8fbd-4ff7-bd71-7359bc57cb1a"/>
+  </producedTypes>
+  <name>ДоверенностиЭлектронныхПодписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доверенности электронных подписей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="73201657-5d60-4ce6-b120-d9dd42d45df9">
+    <name>ДатаПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата проверки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e3c90d9b-65ba-4bcd-8671-a590dfbd7765">
+    <name>Доверенность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доверенность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МашиночитаемыеДоверенностиКонтрагентов</types>
+      <types>CatalogRef.МашиночитаемыеДоверенностиОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aeefd262-d688-46ee-87c7-c5de6853f31e">
+    <name>ДоверенностьВерна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доверенность верна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ce7db006-752a-4340-b031-70ea35526c89">
+    <name>ПротоколПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол проверки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3bc1233b-14bc-4852-95f5-7feb018eb9d6">
+    <name>УникальныйИдентификаторПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор подписи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

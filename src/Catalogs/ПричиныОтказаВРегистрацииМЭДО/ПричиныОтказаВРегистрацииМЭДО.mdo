@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a4f035d-a8d7-4ab2-a5a7-1906383fa15e">
+  <producedTypes>
+    <objectType typeId="8379b7a6-5f20-4b95-acbb-55d968da6ab2" valueTypeId="f5ece57f-0f2c-4427-802e-8d567969a274"/>
+    <refType typeId="51fbfdd0-e7d2-49b8-8cf6-f5368f0d452c" valueTypeId="84480a94-60ac-43c7-9301-dd2fec6f8dbf"/>
+    <selectionType typeId="36534b9b-cddd-46a6-8ddc-78211513e779" valueTypeId="c0ee7094-7db3-44c2-a3c2-d24cfbbd5bf5"/>
+    <listType typeId="b9868d8d-f53a-48a3-839d-896441595d2a" valueTypeId="c06fd419-20f2-466f-a7c9-dc2af52576da"/>
+    <managerType typeId="27b14019-3456-4d01-b08a-2b21ba7d4cf9" valueTypeId="d43f0b0d-4d94-4282-bc50-dd88923c8d58"/>
+  </producedTypes>
+  <name>ПричиныОтказаВРегистрацииМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отказа в регистрации МЭДО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныОтказаВРегистрацииМЭДО.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа причин</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ПричиныОтказаВРегистрацииМЭДО.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Причина отказа в регистрации</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>128</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="388966b8-ed70-41d8-8045-43891885d1b8">
+      <name>Версия2_7</name>
+      <description>Версия 2.7</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="55f715e2-c1fe-4ae7-87f9-7d80e08fe84d">
+        <name>ВПриложенииПроектНормативногоАкта</name>
+        <description>В приложении проект нормативного акта</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="1a6d9f7c-174b-4a3e-8170-fb1f58bf3c45">
+        <name>ДатаДокументаНеразборчива</name>
+        <description>Дата документа неразборчива</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="e7434d96-37eb-404e-abab-4ed877094f1f">
+        <name>ДокументЗарегистрированРанееТекстВзаменРазосланногоЗагружен</name>
+        <description>Документ зарегистрирован ранее, текст взамен разосланного загружен</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="23e5b1ae-6582-4768-bade-14fcca2eb0bd">
+        <name>ДокументИИлиПриложениеОтсканированыСОборотом</name>
+        <description>Документ и/или приложение отсканированы с оборотом</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="1d904874-6bcf-417d-bf97-39d6ff4f8dc0">
+        <name>ИсходящийНомерДокументаНеразборчив</name>
+        <description>Исходящий номер документа неразборчив</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="6413741b-5bae-4529-8ce9-845d57ab0d86">
+        <name>КоличествоСтраницВТекстеДокументаНеСоответствуетЗаявленному</name>
+        <description>Количество страниц в тексте документа не соответствует заявленному</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="74306aac-9819-45d9-8085-9b1841bd9556">
+        <name>ЛистажПриложенияУказанОшибочно</name>
+        <description>Листаж приложения указан ошибочно</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="2efb5f6b-f385-4b42-9037-3142b3ac4c93">
+        <name>НеПолнаяКомплектация</name>
+        <description>Не полная комплектация</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="b9053bef-f534-4337-ad3b-12f15e382b72">
+        <name>НесовпадениеРеквизитовПриложенияСПриложеннымиДокументами</name>
+        <description>Несовпадение реквизитов приложения с приложенными документами</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="f269c530-6c80-43d7-91d4-d1d85969a5be">
+        <name>НесоответствиеПереданныхРеквизитовТекстуДокумента</name>
+        <description>Несоответствие переданных реквизитов тексту документа</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="e98522af-4297-4812-8f47-777698331934">
+        <name>НесоответствиеСодержимогоТранспортногоКонтейнераУтвержденнымТребованиям</name>
+        <description>Несоответствие содержимого транспортного контейнера утвержденным требованиям</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="b37d7d07-1a12-444f-98b9-514d1c2c333d">
+        <name>НетНомераИДаты</name>
+        <description>Нет № и даты</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="3be86bd5-2468-4041-8e75-e446ac3b053e">
+        <name>НетИсковогоЗаявления</name>
+        <description>Нет искового заявления</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="3a5faf9a-7c20-4204-9624-4897a9c38e66">
+        <name>НетПодписи</name>
+        <description>Нет подписи</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="575dd2b3-53ba-4b2b-aabc-e514d17e0f0a">
+        <name>ОтсутствуетИлиНеВиднаПодпись</name>
+        <description>Отсутствует (не видна) подпись</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="8e5a84d1-85f6-4064-8e55-a9ea9fa1594b">
+        <name>ОтсутствуетПриложениеУказанноеВДокументе</name>
+        <description>Отсутствует приложение, указанное в документе</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="8c871209-09fa-45f7-8711-d550694235b8">
+        <name>ОтсутствуетТекст</name>
+        <description>Отсутствует текст</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="66e10d9c-f030-4fc8-bc5a-6c199b18cf5b">
+        <name>ПеревернутыСтраницы</name>
+        <description>Перевернуты страницы</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="c11c7429-886d-4a66-9444-d51bd36f0574">
+        <name>ПриложениеОтсутствует</name>
+        <description>Приложение отсутствует</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="19b8b4df-44ec-423b-9798-fdd49fecef35">
+        <name>ПродублированыСтраницы</name>
+        <description>Продублированы страницы</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="b51549cf-d813-4a97-be94-0ff54e73fcee">
+        <name>ТекстНеСоответствуетРегламенту</name>
+        <description>Текст не соответствует регламенту</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="c1ab1913-90d5-496a-8b06-34552269ed82">
+      <name>ФорматКорректностьПолейСообщения</name>
+      <description>Группа 1. Отказы, связанные с форматом и корректностью полей сообщения</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="a5a6f93a-4abe-4f86-a83b-5ac404aec47e">
+        <name>НеУказанВидДокумента</name>
+        <description>Не указан вид документа</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="a2e81a69-14f3-4a65-a439-dc4e6c22af07">
+        <name>НеУказанКорреспондент</name>
+        <description>Не указан корреспондент</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="d52d71e0-73b3-4336-9206-b2f84bba9a1a">
+        <name>НеУказаныНомерИДатаИсходящегоДокумента</name>
+        <description>Не указаны номер и дата исходящего документа</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="cbffd356-b31a-43aa-96b9-792a0b67c22c">
+        <name>НеУказаныНомерИДатаОснованияДляОтвета</name>
+        <description>Не указаны номер и дата основания для ответа</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="0b892c15-5db7-4d36-add8-57be4b08a9bf">
+        <name>ОшибкаАдресации</name>
+        <description>Ошибка адресации</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="2faaa302-6bc6-49b1-b143-48540b6fc455">
+        <name>ФорматСообщенияНеСоответствуетТребованиям</name>
+        <description>Формат сообщения не соответствует требованиям</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="341f5a3e-670d-49df-8642-8720e9b9c3ad">
+      <name>СодержательнаяЧасть</name>
+      <description>Группа 2. Отказы, связанные с содержательной частью</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4a6f5bc3-3a30-4612-a5a4-af8f5a330321">
+        <name>ДокументДСП</name>
+        <description>Документ ДСП</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="dd3fd972-aa28-40a7-84b8-7154b0c8af34">
+        <name>ДокументЗарегистрированРанееНовыйТекстВзаменРазосланногоЗагружен</name>
+        <description>Документ зарегистрирован ранее, новый текст &quot;взамен разосланного&quot; загружен</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="1e1034ac-3917-4305-a3a1-6c221b3c3d64">
+        <name>ДокументНеСоответствуетРегламенту</name>
+        <description>Документ не соответствует регламенту</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="7e6a1481-61d5-4e8d-a63b-93adcfe11d01">
+        <name>ДокументНеСоответствуетРеквизитамПаспорта</name>
+        <description>Документ не соответствует реквизитам паспорта</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="d2bae7a1-bdf0-4b33-9b39-bb6e40896444">
+        <name>ДокументНеверноАдресован</name>
+        <description>Документ неверно адресован</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="ede1972a-b8a9-47d0-b858-4c5b79db854c">
+        <name>ДокументПодписанНеУполномоченнымЛицом</name>
+        <description>Документ подписан не уполномоченным лицом</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="ce803739-8aa1-4937-bc46-9adddfb3e63e">
+        <name>ДокументПолученРанееВЭлектронномВиде</name>
+        <description>Документ получен ранее в электронном виде</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="4fdfc5d6-957c-451f-aaa3-43a210988af0">
+        <name>ДокументПолученРанееНаБумажномНосителе</name>
+        <description>Документ получен ранее на бумажном носителе</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="58eb9bf8-6ddc-4c17-ad85-b2a494894d1e">
+        <name>НетПодписиИлиЭП</name>
+        <description>Нет подписи или ЭП</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="193d79c8-82f5-4179-b5ad-2475850049c5">
+        <name>ТекстНеразборчив</name>
+        <description>Текст неразборчив</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="6138ec84-96d1-4126-9ae2-987438778d7e">
+        <name>ТекстОтсканированСДефектами</name>
+        <description>Текст отсканирован с дефектами</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="a20b6319-0e22-4e47-9156-80ae48c35b9f">
+        <name>ТекстОтсутствует</name>
+        <description>Текст отсутствует</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="82d53563-afd3-4931-b594-c365fa096071">
+        <name>ТекстСодержитДублированиеСтраниц</name>
+        <description>Текст содержит дублирование страниц</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="aab3a8d6-c7de-4d83-9e54-d2512a680d6f">
+      <name>КомплектностьДокумента</name>
+      <description>Группа 3. Отказы, связанные с комплектностью документа</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="d1363a19-96fb-4808-89d6-d2f7924794ac">
+        <name>КоличествоСтраницВДокументеНеСоответствуетЗаявленному</name>
+        <description>Количество страниц в документе не соответствует заявленному</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="7a6d7a3b-fb90-4c17-a611-dc06c9dc09bd">
+        <name>КоличествоСтраницВПриложенииНеСоответствуетЗаявленному</name>
+        <description>Количество страниц в приложении не соответствует заявленному</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="00e8cb96-0de9-4957-a1ba-1390c9477b40">
+        <name>НетПриложенияИлиНеполнаяКомплектация</name>
+        <description>Нет приложения или неполная комплектация</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="1067875c-e608-44c5-95ab-d6b6c7e9ed63">
+      <name>Иные</name>
+      <description>Группа 4. Иные отказы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="758aa835-25ac-4778-aed6-7d25e21a19c6">
+        <name>НеПодлежитРегистрации</name>
+        <description>Не подлежит регистрации</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="7ade3651-75b8-4c39-9176-3e65649b7fdf">
+        <name>НесоответствиеТребованиямКПроцедурамДелопроизводстваПриФормированииДокумента</name>
+        <description>Несоответствие требованиям к процедурам делопроизводства при формировании документа</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="1b8c88de-39bc-4f52-a4d6-32ee0618f578">
+        <name>НесоответствиеТребованиямКТранспортномуКонтейнеру</name>
+        <description>Несоответствие требованиям к транспортному контейнеру</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="9789997c-d225-48f2-a17a-c21211e2bb3c">
+        <name>НесоответствиеТребованиямКФорматуФайлаДокумента</name>
+        <description>Несоответствие требованиям к формату файла документа</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="ef5da955-6ec3-4e33-a2c0-b29fc1a6a9ad">
+        <name>НесоответствиеТребованиямКФорматуЭлектроннойПодписи</name>
+        <description>Несоответствие требованиям к формату электронной подписи</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="3744b3ef-4e1f-49c7-857e-321a13aa3e1b">
+        <name>НеРаспознана</name>
+        <description>Не распознана (нет в классификаторе)</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>AutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПричиныОтказаВРегистрацииМЭДО.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПричиныОтказаВРегистрацииМЭДО.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ПричиныОтказаВРегистрацииМЭДО.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="0a130167-167e-4f95-8610-9f24d8026fc1">
+    <name>ВерсияДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия до</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВерсииФорматаМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выше этой версии этот элемент не используется</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5b0c8bb4-a995-4a22-a4ee-85f8a4b4e7f3">
+    <name>ВерсияОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия от</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВерсииФорматаМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ниже этой версии этот элемент не используется</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7ba25ee6-0a6a-4b8e-ab4d-f7494a78a28b">
+    <name>ПояснениеКПрименению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пояснение к применению</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="560680c0-193a-45aa-912e-1d1cec5bb43a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="81b7503e-dc99-4be0-b164-df8bf24b6af9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9b28e8c0-a757-4bad-8a8a-c334a132367b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

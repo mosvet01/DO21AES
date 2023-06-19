@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7db6886f-b2cf-4e18-835d-3d955d3a76f4">
+  <producedTypes>
+    <objectType typeId="8cf1e542-5596-4884-af69-74933ce170eb" valueTypeId="47dcce70-7497-49ce-9669-90ba5ffe631f"/>
+    <refType typeId="2e4e0d88-0c73-4ee8-9f7e-10b160341965" valueTypeId="53282d28-9c9c-4926-bd16-e590ca1a07bb"/>
+    <selectionType typeId="74c94d09-f1af-464e-91c3-7bc49ac1ea06" valueTypeId="d2d45cc1-5aef-4915-8d46-93d61a7deb7c"/>
+    <listType typeId="444f60b8-5424-4a50-a974-3a214c9a2825" valueTypeId="30fda895-f115-4bac-82ee-899c75d516fa"/>
+    <managerType typeId="d919df8a-9f53-467a-b8b2-a91103ae2aae" valueTypeId="fb4504a0-380c-4273-b6b7-9af304b6507f"/>
+  </producedTypes>
+  <name>ДанныеДокументаМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные документа МЭДО</value>
+  </synonym>
+  <comment>Контейнер загруженного/отправленного по МЭДО документа. И дополнительная детализация для МЭДО</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>ДФ='dd.MM.yyyy HH:mm'</value>
+    </format>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Данные документов МЭДО</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <defaultObjectForm>Document.ДанныеДокументаМЭДО.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ДанныеДокументаМЭДО.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ДанныеДокументаМЭДО.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.СостоянияДокументовМЭДО</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="393b83b5-1779-4dcd-9eb3-9cc1828de542">
+    <name>АрхивЭСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив ЭСД</value>
+    </synonym>
+    <comment>Внутри ДвоичныеДанные</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл - zip-архив электронного сообщения документооборота</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0cb510b6-40e3-4940-bef9-ca31c812af81">
+    <name>ВерсияМЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия МЭДО</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВерсииФорматаМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сообщение с документом получено/отправлено в формате этой версии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВерсииФорматаМЭДО.EnumValue.Версия271</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="df16dbec-ac36-4c7c-a881-416d4808c125">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДокументовМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По классификатору видов документов для МЭДО</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bc7833b2-b1e4-4ecd-ba07-db10808e2c7d">
+    <name>ГлавныйФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный файл</value>
+    </synonym>
+    <comment>Главный документ из сообщения, остальные - приложения к нему</comment>
+    <type>
+      <types>DefinedType.ПрисоединенныйФайлМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если файлов pdf несколько, то нужно указать главный, который считается документом, остальные будут считаться приложениями к нему</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ВладелецФайла</name>
+      <field>Document.ДанныеДокументаМЭДО.Attribute.Документ</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  </attributes>
+  <attributes uuid="77af1905-8699-4c5a-a104-d50a48bb3ffa">
+    <name>ГотовКОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к отправке</value>
+    </synonym>
+    <comment>Для исходящего</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ будет отправлен по МЭДО. По расписанию планировщика заданий</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b3d674f-e744-4c6c-a800-47aa679bb8d7">
+    <name>ГрифДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гриф доступа</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ГрифДоступаМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a7ff7a0f-19b0-4967-9915-164198db946c">
+    <name>ДатаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата регистрации документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7a6d2335-a243-49b9-8000-83210f409070">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Непосредственно электронный документ, к которому относятся данные</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a781e72c-023b-46fa-a25c-13e49720ca18">
+    <name>ИдентификаторДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор документа</value>
+    </synonym>
+    <comment>Для входящего - из паспорта сообщения, для исходящего - GUID из ссылки на документ</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор документа в паспорте контейнера. Для исходящего совпадает с внутренним идентификатором в этой информационной базе</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="0094a08d-5d10-4164-a839-cb24672a8ee5">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор сообщения по документу. Для исходящего совпадает с внутренним идентификатором в этой информационной базе</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="46cdacd9-b96e-4889-92a3-523851c1ac58">
+    <name>ИмяАрхиваЭСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл ЭСД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Исходный файл-контейнер электронного сообщения МЭДО</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cdceabf3-b649-4f81-b73d-dbc2f56cc0d5">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ee094d4e-2e29-4348-9914-e02b016f5f69">
+    <name>МестоСоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место составления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаСоставленияДокументовМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Место составления по классификатору МЭДО</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2ef18dfe-e2f4-48e2-8240-60bc683161c0">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаправленияСообщенийМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="9cb3ad5e-3081-4fb3-ab09-2f3d6b01912e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="610b85e2-8b54-4342-b671-adea1b5ad7a5">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОтветственныйМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b32d233e-2be3-4d0f-9d31-d08e9af620ac">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+    <comment>Для исходящего</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="889a5f98-de1a-4b9b-ad3c-9a54b44bfcf1">
+    <name>ТекущееСостояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее состояние</value>
+    </synonym>
+    <comment>Для отбора в списке</comment>
+    <type>
+      <types>EnumRef.СостоянияДокументовМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Последнее состояние по истории прохождения документа по МЭДО</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="bf373f26-e890-49db-818e-57ed713935c0">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b78381eb-def6-4792-94ff-297530af4c6c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="839fcb88-5d13-4840-8014-7be8d8b4b239">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="443adb80-b750-4b41-8843-67e5ccce0f11">
+    <name>РедактироватьДанныеМЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактировать данные МЭДО</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DefinedType.ПредметМЭДО</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

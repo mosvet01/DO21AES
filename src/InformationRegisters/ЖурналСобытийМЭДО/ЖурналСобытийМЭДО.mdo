@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6ba0c95-6a8a-41be-83d4-f5ec3092e225">
+  <producedTypes>
+    <selectionType typeId="bd3ceb73-61ad-475b-93fa-1d4f52b7af17" valueTypeId="9ee99ea4-a231-4928-bde5-93808df4f29d"/>
+    <listType typeId="510cafef-b504-414c-acfb-0aef39c65ac2" valueTypeId="6778bd24-274c-4925-adf2-9b517145bdf8"/>
+    <managerType typeId="2830b0d3-fbde-476e-b60a-cf0cd8a947cb" valueTypeId="685feb55-0d17-4574-a79a-32a70f883120"/>
+    <recordSetType typeId="bdfd1579-92bb-49fa-b3d2-cf8575da2291" valueTypeId="3c41071d-d0a8-45fe-a987-2bdd06958ce1"/>
+    <recordKeyType typeId="a1acc654-ceee-4070-9353-65e0db1d1edc" valueTypeId="1c0cbac3-d2c3-4449-86e2-aac80accbdaa"/>
+    <recordType typeId="1405dcec-7182-452d-ad82-1eeedd82e2e6" valueTypeId="eb715f93-a08c-430a-9bfa-7a91032137c0"/>
+    <recordManagerType typeId="0cc4d6a4-2b3d-4296-a287-6cacccf362ef" valueTypeId="61ea076a-cb77-443c-9196-bae8163a2974"/>
+  </producedTypes>
+  <name>ЖурналСобытийМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал событий МЭДО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЖурналСобытийМЭДО.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЖурналСобытийМЭДО.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Событие при обмене в МЭДО</value>
+  </recordPresentation>
+  <resources uuid="5de4d440-3bb9-4916-9e7f-a3f65b0b054d">
+    <name>АрхивЭСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив ЭСД</value>
+    </synonym>
+    <comment>Внутри структура - ЛокальноеИмя и ДвоичныеДанные</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл - zip-архив электронного сообщения документооборота</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1facdf79-c291-4e44-b99f-cd8cdb9e0bf7">
+    <name>ИмяАрхиваЭСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл ЭСД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Исходный файл-контейнер электронного сообщения МЭДО</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="79312ab2-938c-4702-a350-568c74266c78">
+    <name>ТекстОшибкиКратко</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кратко</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>          </value>
+    </fillValue>
+  </resources>
+  <resources uuid="0aee0f53-f207-45f7-83f4-df92af786b46">
+    <name>ТекстОшибкиПодробно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробно</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>999</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>       </value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="22c49dcd-10ce-4bce-937c-488110085f03">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ccc6657c-7bda-41e1-9be5-6a6c54021b4d">
+    <name>Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УровниСобытийМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="44ca8153-1281-47e4-9327-c6f4f867b802">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d844a8b0-db9f-4d1e-bef6-198b3c572f95">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОбъектСОшибкойМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект, связанный с ошибкой</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c11e2932-a4fe-4217-b5bd-b920cc29cf76">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="836e60ea-0f95-4e09-b508-64973e9ba798">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

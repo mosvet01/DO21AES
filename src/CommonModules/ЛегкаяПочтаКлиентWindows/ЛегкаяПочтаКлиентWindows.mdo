@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d40f94f-9c9e-4f5f-9e4a-3a0e1ddb5a91">
+  <name>ЛегкаяПочтаКлиентWindows</name>
+  <synonym>
+    <key>ru</key>
+    <value>Легкая почта клиент windows</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

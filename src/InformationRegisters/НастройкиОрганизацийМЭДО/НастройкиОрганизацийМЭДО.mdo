@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73aefa1c-9417-4464-9a25-767df5291941">
+  <producedTypes>
+    <selectionType typeId="606f6cad-1fa4-47a4-a01f-e5ddf93e4513" valueTypeId="dafb94d6-24c0-4965-ab51-ff8620816004"/>
+    <listType typeId="8e8cb340-c6d4-4ca8-aafe-de11faf92e9e" valueTypeId="b567ffc0-3017-49ab-b078-c9d5e2be238b"/>
+    <managerType typeId="6b196a4a-9b93-427c-910b-519455793338" valueTypeId="e17c3669-5fd8-45f1-9d74-381407936e6b"/>
+    <recordSetType typeId="237683c2-1548-4550-876e-0394b9e190a9" valueTypeId="812528c2-9519-4728-b846-6ba34d998454"/>
+    <recordKeyType typeId="6f34224b-4456-4f9a-ae5a-f41959fefe7f" valueTypeId="3f4445ab-4e56-4346-9cee-093b9c2be9b9"/>
+    <recordType typeId="0b2b5409-32e0-4dbb-b51a-0f9dfb61fd65" valueTypeId="642924cf-96f8-4af9-9df4-a955d5b5f77a"/>
+    <recordManagerType typeId="00555105-4901-4cc3-bc27-60779643406f" valueTypeId="3b0f22aa-a6ed-4db9-bcd0-52c84b2b404c"/>
+  </producedTypes>
+  <name>НастройкиОрганизацийМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки учреждений для МЭДО</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиОрганизацийМЭДО.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка учреждения для МЭДО</value>
+  </recordPresentation>
+  <resources uuid="3eed1c78-16d7-4a6c-aaed-da7205d4c75e">
+    <name>АдресМЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес МЭДО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="85fe491e-66a4-4021-b414-b0c8f95af11d">
+    <name>ВидВходящегоДокументаПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид входящего документа по умолчанию</value>
+    </synonym>
+    <comment>Специфичен для конфигурации Документооборот, при внедрении в другую конфигурацию может быть не актуален</comment>
+    <type>
+      <types>DefinedType.ВидДокументаМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При загрузке входящим документам будет назначаться этот вид.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="309e0d29-039e-4b6c-80d1-0f17ad59fc4f">
+    <name>ГрифИнформацияОграниченногоРаспространения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гриф - Информация ограниченного распространения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ГрифДоступаМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код МЭДО - DC00000001</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9226cc9a-30a6-4bc9-9de3-e0bdc6fb71b4">
+    <name>ГрифОбычнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гриф - обычная информация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ГрифДоступаМЭДО</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код МЭДО - DC00000000</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5c5db345-cbb6-4657-9f9e-98d308f0b705">
+    <name>ИдентификаторМЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор для МЭДО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение заполняется по справочнику
+абонентов МЭДО</value>
+    </toolTip>
+    <mask>NNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1db36a33-141e-4281-8a80-24e7d5c69201">
+    <name>КаталогОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог отправки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Папка на диске или в сети, куда записываются исходящие сообщения для отправки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e55d3afe-61d2-4dd7-8238-612e4d04177a">
+    <name>КаталогОтправкиFTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог отправки FTP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Папка на FTP, куда отправляются исходящие сообщения для отправки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5750dd3b-cf16-45bc-90d6-8a3ea797b177">
+    <name>КаталогПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог получения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Папка на диске или в сети, откуда загружаются входящие сообщения для получения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="dd7d3aa9-be86-44c6-b112-81b76d61f888">
+    <name>КаталогПолученияFTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог получения FTP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Папка на FTP, откуда загружаются входящие сообщения для получения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5178640e-e408-4a27-a97b-bff007908485">
+    <name>НаименованиеМЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование учреждения для МЭДО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="74cca7fe-5dbd-48d7-bb11-6d69a7a4e66e">
+    <name>РазмерПорции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер порции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество сообщений принимаемых/отправлемых по расписанию за один раз. Если задание отправки/приема выполняется редко, то имеет смысл размер порции увеличить и наоборот.</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>50</value>
+    </fillValue>
+  </resources>
+  <resources uuid="d95922de-b9a0-4f5a-a190-f7d43619bb3b">
+    <name>СпособОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ обмена</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыОбменаМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8071b172-35f2-4888-96f0-bae00ff18055">
+    <name>ШтампВысота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота штампа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Высота картинки штампа, в мм. Если не задано, то считается высота файла картинки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e596429b-7237-44d8-8535-94aadcc80b04">
+    <name>ШтампСверху</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штамп - отступ сверху</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отступ от верха листа, в мм</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f4c222ad-3d71-467c-8083-ddf4b0530ac9">
+    <name>ШтампСлева</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штамп - отступ слева</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отступ от левого края листа, в мм</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1cbdaffe-d4e8-4457-b668-a8b95a56285d">
+    <name>ШтампШирина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина штампа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ширина картинки штампа, в мм. Если не задано, то считается ширина файла картинки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="04b53ee9-5ec5-4244-8782-78966f6ef91e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f2d8dd7f-0458-4ace-b5a1-ac5d54dc5e04">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

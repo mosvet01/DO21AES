@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4196a54-94f6-4de5-bbcd-f36ea43d5816">
+  <producedTypes>
+    <refType typeId="e6acbdf7-23ca-4dfa-a0cc-9772dd2284f1" valueTypeId="c76ef976-1431-4939-aab5-34b03a55d75f"/>
+    <listType typeId="340dd5d4-e130-4bb4-a874-46faca81c968" valueTypeId="8c98d362-8431-4496-91fe-72e85d8d7bb9"/>
+    <managerType typeId="c155ac4d-a48e-4c8a-b9f7-d0f3db09534a" valueTypeId="d24c8f71-1b83-490a-9b4b-a454ac537431"/>
+  </producedTypes>
+  <name>СостоянияДокументовМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния документов МЭДО</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0b311aad-50ab-44b1-b110-7d9052fe30a6">
+    <name>ВходящийДокументЗарегистрирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий документ зарегистрирован</value>
+    </synonym>
+    <comment>Для входящих документов</comment>
+  </enumValues>
+  <enumValues uuid="7c99f575-7ffb-422d-a3f7-02f84bda1ddb">
+    <name>ДокументЗарегистрированГотовКОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ зарегистрирован, готов к отправке</value>
+    </synonym>
+    <comment>Для исходящих документов</comment>
+  </enumValues>
+  <enumValues uuid="90378dc4-0476-4b96-bbc7-501de14faab4">
+    <name>ДокументОтправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ отправлен</value>
+    </synonym>
+    <comment>Для исходящих документов</comment>
+  </enumValues>
+  <enumValues uuid="f0a82520-a0d8-4f72-84b1-a67a7e1571d9">
+    <name>ДокументПолучен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ получен</value>
+    </synonym>
+    <comment>Для входящих документов</comment>
+  </enumValues>
+  <enumValues uuid="cdbc668c-454f-459d-84e2-9605f16f96bc">
+    <name>ИсходящееУведомлениеЕщеНеОтправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящее уведомление еще не отправлено</value>
+    </synonym>
+    <comment>Для входящих документов</comment>
+  </enumValues>
+  <enumValues uuid="be9a7b84-c35f-4c84-9739-8cc879a1c934">
+    <name>ИсходящийДокументЕщеНеОтправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящий документ еще не отправлен</value>
+    </synonym>
+    <comment>Для исходящих документов</comment>
+  </enumValues>
+  <enumValues uuid="1895fc7c-e730-49ab-9de8-5a963e3fb2a1">
+    <name>ОтправкаОтменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка отменена</value>
+    </synonym>
+    <comment>Для исходящих документов</comment>
+  </enumValues>
+  <enumValues uuid="0aea0610-2b50-4912-b0cb-23814124c4c2">
+    <name>ОтправленаКвитанция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлена квитанция</value>
+    </synonym>
+    <comment>Для входящих документов и уведомлений</comment>
+  </enumValues>
+  <enumValues uuid="e2fa5e01-a469-4ed2-81dc-129054df67ff">
+    <name>ОтправленаКвитанцияОбОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлена квитанция об ошибке</value>
+    </synonym>
+    <comment>Для входящих документов и уведомлений</comment>
+  </enumValues>
+  <enumValues uuid="c1afa6ed-d912-4308-89b8-a9c39ef60222">
+    <name>ОтправленоУведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено уведомление</value>
+    </synonym>
+    <comment>Для входящих документов</comment>
+  </enumValues>
+  <enumValues uuid="8bbc4bb0-70c0-468b-baf4-501fe7e540ed">
+    <name>ПолученаКвитанция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получена квитанция</value>
+    </synonym>
+    <comment>Для исходящих документов и уведомлений</comment>
+  </enumValues>
+  <enumValues uuid="7ca778f7-71b5-4e62-b861-14748c826cf0">
+    <name>ПолученаКвитанцияОбОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получена квитанция об ошибке</value>
+    </synonym>
+    <comment>Для исходящих документов и уведомлений</comment>
+  </enumValues>
+  <enumValues uuid="6e65dee5-7057-482d-abe1-96226226585f">
+    <name>ПолученоУведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получено уведомление</value>
+    </synonym>
+    <comment>Для исходящих документов</comment>
+  </enumValues>
+  <enumValues uuid="46abac28-922f-4f18-b1e2-7189c1b22bc8">
+    <name>СозданаИсходящаяКвитанция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет получен, создана исходящая квитанция</value>
+    </synonym>
+    <comment>Для входящих документов и уведомлений</comment>
+  </enumValues>
+  <enumValues uuid="10817e5e-3379-4230-9dbb-93b68ad86672">
+    <name>СозданоИсходящееУведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создано исходящее уведомление</value>
+    </synonym>
+    <comment>для входящих документов</comment>
+  </enumValues>
+</mdclass:Enum>

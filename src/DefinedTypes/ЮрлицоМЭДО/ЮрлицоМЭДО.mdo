@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87d344fa-810b-42dd-93ac-ac4c811e84be">
+  <producedTypes>
+    <containerType typeId="13c13f6d-c715-489c-bccc-3b50bea65552" valueTypeId="cc808da5-939c-4262-a8ea-249a40878246"/>
+  </producedTypes>
+  <name>ЮрлицоМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юрлицо МЭДО</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Организации</types>
+  </type>
+</mdclass:DefinedType>

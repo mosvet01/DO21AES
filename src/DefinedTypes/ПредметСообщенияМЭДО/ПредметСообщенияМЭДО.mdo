@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b450d3f-5ff6-4a7c-94ea-645ee75b5281">
+  <producedTypes>
+    <containerType typeId="d7e8b9ba-4f7d-497c-b156-34b6ad5dc653" valueTypeId="cf5b5646-3baa-49e7-9c7a-43e807b5e324"/>
+  </producedTypes>
+  <name>ПредметСообщенияМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет сообщения МЭДО</value>
+  </synonym>
+  <comment>Типы, которые принимаются и отправляются по МЭДО + уведомления + квитанции</comment>
+  <type>
+    <types>DocumentRef.ДанныеДокументаМЭДО</types>
+    <types>DocumentRef.УведомлениеМЭДО</types>
+    <types>DocumentRef.КвитанцияМЭДО</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7029fbb-96fe-4413-8276-923705786bb8">
+  <producedTypes>
+    <refType typeId="fffbd3c7-8838-4788-8f48-90f22e4b65da" valueTypeId="627fe062-2b43-42cb-b6ea-3952e56d500b"/>
+    <listType typeId="2a5053c6-60b3-4cb1-ab39-9ffa31a9e033" valueTypeId="8a956fdb-362d-467e-b8b2-702dd87081bd"/>
+    <managerType typeId="e3b0965d-771e-4085-9968-bc4930fdc5b4" valueTypeId="84e82b16-1371-48b9-9791-67e9666130b2"/>
+  </producedTypes>
+  <name>СпособыОбменаМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы обмена МЭДО</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="0674c8c9-12e5-4b5e-8e2a-59a92ce189f6">
+    <name>ДискСеть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диск/локальная сеть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c9d44da-690e-4a67-878a-605ef5c72b1d">
+    <name>FTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>FTP</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58eaa994-eccb-4437-806d-0874310f04a4">
+  <producedTypes>
+    <selectionType typeId="1910ff50-a09d-459a-9fec-d62bfa4363ce" valueTypeId="86931a4e-d59f-4ca2-a57c-1ef65df79bd3"/>
+    <listType typeId="bc284af7-e0d2-4b28-a94d-e24869ee8f5e" valueTypeId="0d11bb3c-9d57-49d5-b211-5e27fb5c4707"/>
+    <managerType typeId="70c3c939-59b0-4a2f-935c-4f4895b719ed" valueTypeId="80d97a5e-c8f4-42c7-9df7-e5c2a7952c37"/>
+    <recordSetType typeId="c89a9f75-e2af-4231-bf97-5d83be9045ad" valueTypeId="33e07786-92b8-44a5-bd8d-bdb1ffcd47d2"/>
+    <recordKeyType typeId="d720695d-6278-4cb2-95ae-3d3597ff2a75" valueTypeId="b1afcc9f-d836-46db-bd64-b920864a4cf7"/>
+    <recordType typeId="94a81024-b0ba-4662-9e4c-8f643edb6872" valueTypeId="f9db1b16-949c-4d4c-b5da-965e95304e30"/>
+    <recordManagerType typeId="1e49596e-4a94-4f32-a642-9b665811a739" valueTypeId="c249a7b1-1072-4a32-b9bc-a05871329e88"/>
+  </producedTypes>
+  <name>НастройкиКонтрагентовМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки контрагентов для МЭДО</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиКонтрагентовМЭДО.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка контрагента для МЭДО</value>
+  </recordPresentation>
+  <resources uuid="1cb0cbca-22ca-4f3d-9d07-d303a425be66">
+    <name>АдресМЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес МЭДО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение заполняется по справочнику
+абонентов МЭДО</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8645d8e1-ef07-4b65-b20c-9f18a4934d40">
+    <name>ВерсияФорматаМЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата МЭДО</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВерсииФорматаМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="04af8bca-8598-48b1-a59d-525d4f864e20">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КонтрагентМЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a6aa5d53-d7cc-4983-91ab-d30d902ec9e2">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

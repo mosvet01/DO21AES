@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c00c4c47-8394-40b0-940f-05a0eab2947f">
+  <name>ШаблонРегистрационногоШтампа_бол</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон регистрационного штампа бол</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

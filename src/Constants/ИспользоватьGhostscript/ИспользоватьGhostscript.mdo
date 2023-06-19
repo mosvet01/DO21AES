@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5cd0984-aa16-4bba-93a7-65aa04c7f2c1">
+  <producedTypes>
+    <managerType typeId="d59312e5-946a-4385-8461-fd6ad1ee96a9" valueTypeId="986aeb92-aac2-49a7-b568-cff18f494175"/>
+    <valueManagerType typeId="7a55b851-2590-4618-b803-eb929c276285" valueTypeId="d2e8938f-47a5-4273-857d-01fe5897bf7e"/>
+    <valueKeyType typeId="dda01109-0f47-4c30-84dd-fc0a2425f622" valueTypeId="77f66409-2afe-4c56-81cd-49658c0693b3"/>
+  </producedTypes>
+  <name>ИспользоватьGhostscript</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать Ghostscript</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

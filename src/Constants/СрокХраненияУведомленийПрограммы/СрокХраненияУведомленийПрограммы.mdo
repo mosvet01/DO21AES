@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff96e97f-b11b-4b22-a57e-87e4f4a1209d">
+  <producedTypes>
+    <managerType typeId="06819e52-d317-432f-8a18-7a6e60b877e5" valueTypeId="ac441e50-b66b-478b-a463-4b3ea3397059"/>
+    <valueManagerType typeId="509419cf-386a-4ca4-8745-4e9d690a2899" valueTypeId="a7e4c340-ec39-4913-adc7-3896b865f8fe"/>
+    <valueKeyType typeId="4aba0ac4-1c3d-4a45-b039-036106e8c165" valueTypeId="4273ffcd-bdd6-4432-9667-a11fe19b9f0b"/>
+  </producedTypes>
+  <name>СрокХраненияУведомленийПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок хранения уведомлений программы</value>
+  </synonym>
+  <comment>Срок в днях</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

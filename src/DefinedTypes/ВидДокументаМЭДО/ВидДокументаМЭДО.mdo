@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="117d9825-b4ea-4521-95c4-9aa76fdc0da6">
+  <producedTypes>
+    <containerType typeId="0a459354-1416-49b5-ae26-50a4caf03355" valueTypeId="38672ad5-b57d-44a2-ba37-c2ca02ba9944"/>
+  </producedTypes>
+  <name>ВидДокументаМЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид документа для МЭДО</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыВходящихДокументов</types>
+  </type>
+</mdclass:DefinedType>

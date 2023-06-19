@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e66593ff-3271-40af-85c7-55c7561a28ef">
+  <producedTypes>
+    <refType typeId="8d693930-5053-4f87-87b7-f4d3d5cb578b" valueTypeId="affb160c-fbee-4d42-ae76-7803c911838b"/>
+    <listType typeId="cd9a20b1-829b-487e-9180-d00b21f7c98b" valueTypeId="3db3034a-e274-4337-a9e0-49155f56c43d"/>
+    <managerType typeId="4cf48fd1-5aa2-4974-8875-b62fd9cfdabc" valueTypeId="238fdd25-c7ea-4583-96d4-3ddd9fde4aaf"/>
+  </producedTypes>
+  <name>СпособыВставкиШтампаЭПВPDF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы вставки штампа ЭПВPDF</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5c41aea7-fda5-4587-afb2-58e68f8c31a3">
+    <name>ImageMagickGhostscript</name>
+    <synonym>
+      <key>ru</key>
+      <value>ImageMagick + Ghostscript</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c01f3981-2c14-44e1-891c-38372f50ee6b">
+    <name>Встроенный</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Предприятие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
